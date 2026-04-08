@@ -1,7 +1,10 @@
 services:
   mongodb1:
     container_name: mongodb1
-    image: dh-mirror.gitverse.ru/mongo:latest
+    # Зеркало dh-mirror.gitverse.ru возвращает 502 Bad Gateway при pull образа,
+    # поэтому используется официальный образ с Docker Hub
+    # image: dh-mirror.gitverse.ru/mongo:latest
+    image: mongo:latest
     volumes:
       - mongodb1_data_container:/data/db
 
