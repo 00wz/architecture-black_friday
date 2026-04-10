@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36">
+  <diagram name="Page-1" id="-H_mtQnk-PTXWXPvYvuk">
+    <mxGraphModel dx="1414" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T5l8migURVVfOQSHYdAR-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="190" width="270" x="750" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="190" width="270" x="750" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zA23MoTUsTF4_91t8viU-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MongoDB" vertex="1">
+          <mxGeometry height="80" width="60" x="560" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="zA23MoTUsTF4_91t8viU-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="pymongo-api" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="zA23MoTUsTF4_91t8viU-4" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="zA23MoTUsTF4_91t8viU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MongoDB" vertex="1">
+          <mxGeometry height="80" width="60" x="855" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" value="MongoDB" vertex="1">
+          <mxGeometry height="80" width="60" x="560" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-4" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="T5l8migURVVfOQSHYdAR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-5" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="T5l8migURVVfOQSHYdAR-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-6" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="T5l8migURVVfOQSHYdAR-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Конфигурационный сервер" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Роутер" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Шард 1" vertex="1">
+          <mxGeometry height="30" width="60" x="855" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Шард 2" vertex="1">
+          <mxGeometry height="30" width="60" x="855" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Первичный сервер" vertex="1">
+          <mxGeometry height="30" width="60" x="855" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-14" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MongoDB" vertex="1">
+          <mxGeometry height="80" width="60" x="780" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Вторичный сервер" vertex="1">
+          <mxGeometry height="30" width="60" x="780" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-16" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MongoDB" vertex="1">
+          <mxGeometry height="80" width="60" x="950" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Вторичный сервер" vertex="1">
+          <mxGeometry height="30" width="60" x="950" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-18" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MongoDB" vertex="1">
+          <mxGeometry height="80" width="60" x="770" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Вторичный сервер" vertex="1">
+          <mxGeometry height="30" width="60" x="770" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-20" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MongoDB" vertex="1">
+          <mxGeometry height="80" width="60" x="940" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Вторичный сервер" vertex="1">
+          <mxGeometry height="30" width="60" x="940" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-22" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MongoDB" vertex="1">
+          <mxGeometry height="80" width="60" x="855" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Первичный сервер" vertex="1">
+          <mxGeometry height="30" width="60" x="855" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-24" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" value="Redis" vertex="1">
+          <mxGeometry height="80" width="60" x="390" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="T5l8migURVVfOQSHYdAR-25" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="T5l8migURVVfOQSHYdAR-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
