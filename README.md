@@ -1,14 +1,19 @@
-инструкции по запуску в соответствующих дирректориях (/mongo-sharding, /mongo-sharding-repl, /sharding-repl-cache) (везде одинаковая).
+инструкции по запуску в соответствующих директориях (/mongo-sharding, /mongo-sharding-repl, /sharding-repl-cache) (везде одинаковая).
+________________________
 
 
 схемы по порядку:
 
 ![1](assets/1.png)
+________________________
 
 ![2](assets/2.drawio.png)
+________________________
 
 ![3](assets/3.drawio.png)
+________________________
 
 ![4](assets/4.drawio.png)
+________________________
 
 ![5](assets/5.png)
